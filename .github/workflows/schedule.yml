@@ -2,7 +2,9 @@ name: Update Gist
 
 on:
   push:
-    branch: master
+    branches: 
+    - master
+    - release/*
 
   schedule:
     - cron: "0 */3 * * *"
